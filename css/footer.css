@@ -1,0 +1,53 @@
+.keyboard-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.keyboard-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #d3d6da;
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+footer{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.keyboard-block-enter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid#d3d6da;
+    width: 80px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: gainsboro;
+}
+.keyboard-block-backspace{
+    width: 70px;
+    height: 65px;
+    background-color: gainsboro;
+}
+.keyboard-block-backimg{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 13px;
+    left: 14px;
+   
+    
+}
